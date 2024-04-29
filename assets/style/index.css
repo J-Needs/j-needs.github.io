@@ -7,7 +7,7 @@
 
 #navbar .nav-navbar {
   height: 10vh;
-  max-width: 31.2rem;
+  max-width: 26rem;
   margin: auto;
   position: sticky;
 
@@ -139,7 +139,7 @@
 }
 
 #content {
-  max-width: 31.2rem;
+  max-width: 26rem;
   margin: auto;
   background-color: #8e9053;
   background-image: url(../images/home.png);
@@ -173,31 +173,43 @@
 #content .char {
   position: absolute;
   top: 60%;
-  right: 10%;
-  width: 70%;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: clamp(300px, 70%, 500px);
   z-index: 1;
 }
 
 #content .main {
   position: absolute;
   top: 20%;
-  right: 0%;
-  width: 90%;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: clamp(250px, 50%, 500px);
   z-index: 0;
 }
 
 #content .frame {
   position: absolute;
   top: 5%;
-  right: 20%;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
   width: 50%;
   z-index: 0;
 }
 
 #content .start {
   position: absolute;
-  top: 45vh;
-  right: 34%;
-  width: 25%;
+  top: 45%;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: clamp(100px, 25%, 300px);
   z-index: 5;
 }
