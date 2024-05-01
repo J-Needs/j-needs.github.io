@@ -9,3 +9,13 @@ responsiveToggle.addEventListener("change", (e) => {
     navMenu.classList.remove("active");
   }
 });
+
+const imageTrigger = document.querySelectorAll(".image-trigger");
+const imageModal = document.querySelector(".modal-image");
+
+imageTrigger.forEach((trigger) => {
+  trigger.addEventListener("click", (e) => {
+    console.log(trigger)
+    imageModal.src = trigger.src;
+  });
+});

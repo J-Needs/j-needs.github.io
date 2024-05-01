@@ -49,24 +49,69 @@
         </div>
       </nav>
     </section>
+
     <section id="main">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4" style="margin-top: 15vh">
-            <img src="assets/images/jayden.webp" alt="jayden" width="120" />
+          <div
+            style="margin-top: 15vh"
+            class="col-12 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <img src="assets/images/jayden.webp" alt="jayden" width="100vw" class="image-trigger" />
             <p class="text-light name">Nama Saya Jayden</p>
           </div>
-          <div class="col-4 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4">
-            <img src="assets/images/ayah.webp" alt="jayden" height="120" />
+          <div
+            class="col-4 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <img src="assets/images/ayah.webp" alt="jayden" width="100vw" class="image-trigger" />
             <p class="text-light name">Papah</p>
           </div>
-          <div class="col-4 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4">
-            <img src="assets/images/ibu.webp" alt="jayden" height="120" />
+          <div
+            class="col-4 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <img src="assets/images/ibu.webp" alt="jayden" width="100vw" class="image-trigger" />
             <p class="text-light name">Mamah</p>
           </div>
-          <div class="col-4 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4">
-            <img src="assets/images/nenek.webp" alt="jayden" height="120" />
+          <div
+            class="col-4 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <img src="assets/images/nenek.webp" alt="jayden" width="100vw" class="image-trigger" />
             <p class="text-light name">Nenek</p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+              <img
+                class="modal-image"
+                src="assets/images/jayden.webp"
+                alt=""
+                width="100%"
+              />
+            </div>
           </div>
         </div>
       </div>
