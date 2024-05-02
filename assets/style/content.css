@@ -1,3 +1,9 @@
+body {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 #navbar {
   background-color: #ede1db;
   margin: auto;
@@ -158,8 +164,12 @@
   text-shadow: 2px 2px #000;
 }
 
+#main .name {
+  font-size: 1.7rem;
+}
+
 #main .work {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 #main h1 {
