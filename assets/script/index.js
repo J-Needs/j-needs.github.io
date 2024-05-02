@@ -10,12 +10,21 @@ responsiveToggle.addEventListener("change", (e) => {
   }
 });
 
+
+const navLinks = document.querySelectorAll(".nav-link");
+
+navLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    navMenu.classList.remove("active");
+    responsiveToggle.checked = false;
+  });
+});
+
 const imageTrigger = document.querySelectorAll(".image-trigger");
 const imageModal = document.querySelector(".modal-image");
 
 imageTrigger.forEach((trigger) => {
   trigger.addEventListener("click", (e) => {
-    console.log(trigger)
     imageModal.src = trigger.src;
   });
 });

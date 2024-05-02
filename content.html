@@ -33,17 +33,17 @@
             class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"
           >
             <li>
-              <a href="content.html#families" class="px-2 nav-link"
+              <a href="content.html#keluargaku" class="px-2 nav-link"
                 >Keluargaku</a
               >
             </li>
             <li>
-              <a href="content.html#friends" class="px-2 nav-link"
+              <a href="content.html#temanku" class="px-2 nav-link"
                 >Guru & Temanku</a
               >
             </li>
             <li>
-              <a href="content.html#needs" class="px-2 nav-link">Kebutuhanku</a>
+              <a href="content.html#kebutuhanku" class="px-2 nav-link">Kebutuhanku</a>
             </li>
           </ul>
         </div>
@@ -52,48 +52,258 @@
 
     <section id="main">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row" id="keluargaku" style="padding-top: 15vh">
+          <h1 class="text-center text-light mb-4">Keluargaku</h1>
           <div
-            style="margin-top: 15vh"
             class="col-12 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
             data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
+            data-bs-target="#modalDetail"
           >
-            <img src="assets/images/jayden.webp" alt="jayden" width="100vw" class="image-trigger" />
+            <img
+              src="assets/images/jayden.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
             <p class="text-light name">Nama Saya Jayden</p>
           </div>
           <div
             class="col-4 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
             data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
+            data-bs-target="#modalDetail"
           >
-            <img src="assets/images/ayah.webp" alt="jayden" width="100vw" class="image-trigger" />
+            <img
+              src="assets/images/ayah.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
             <p class="text-light name">Papah</p>
           </div>
           <div
             class="col-4 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
             data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
+            data-bs-target="#modalDetail"
           >
-            <img src="assets/images/ibu.webp" alt="jayden" width="100vw" class="image-trigger" />
+            <img
+              src="assets/images/ibu.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
             <p class="text-light name">Mamah</p>
           </div>
           <div
             class="col-4 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
             data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
+            data-bs-target="#modalDetail"
           >
-            <img src="assets/images/nenek.webp" alt="jayden" width="100vw" class="image-trigger" />
+            <img
+              src="assets/images/nenek.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
             <p class="text-light name">Nenek</p>
+          </div>
+        </div>
+
+        <div class="row" id="temanku" style="padding: 15vh 0 2rem 0">
+          <h1 class="text-center text-light mb-4">Guru & Temanku</h1>
+          <div
+            class="col-4 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#modalDetail"
+          >
+            <img
+              src="assets/images/ajri.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
+            <p class="text-light name">Ajri</p>
+          </div>
+          <div
+            class="col-4 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#modalDetail"
+          >
+            <img
+              src="assets/images/eji.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
+            <p class="text-light name">Eji</p>
+          </div>
+          <div
+            class="col-4 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#modalDetail"
+          >
+            <img
+              src="assets/images/enzy.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
+            <p class="text-light name">Enzy</p>
+          </div>
+          <div
+            class="col-12 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#modalDetail"
+          >
+            <img
+              src="assets/images/bu_lilis.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
+            <p class="text-light name">Ibu Lilis</p>
+          </div>
+        </div>
+
+        <div class="row" id="kebutuhanku" style="padding: 15vh 0 2rem 0">
+          <h1 class="text-center text-light mb-4">Kebutuhanku</h1>
+          <div
+            class="col-6 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#modalDetail"
+          >
+            <img
+              src="assets/images/makan.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
+            <p class="text-light work text-center">Saya ingin makan</p>
+          </div>
+          <div
+            class="col-6 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#modalDetail"
+          >
+            <img
+              src="assets/images/tidak_makan.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
+            <p class="text-light work text-center">Saya tidak ingin makan</p>
+          </div>
+          <div
+            class="col-6 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#modalDetail"
+          >
+            <img
+              src="assets/images/minum.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
+            <p class="text-light work text-center">Saya ingin minum</p>
+          </div>
+          <div
+            class="col-6 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#modalDetail"
+          >
+            <img
+              src="assets/images/tidak_minum.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
+            <p class="text-light work text-center">Saya tidak ingin minum</p>
+          </div>
+          <div
+            class="col-6 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#modalDetail"
+          >
+            <img
+              src="assets/images/bermain.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
+            <p class="text-light work text-center">Saya ingin bermain</p>
+          </div>
+          <div
+            class="col-6 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#modalDetail"
+          >
+            <img
+              src="assets/images/tidak_bermain.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
+            <p class="text-light work text-center">Saya tidak ingin bermain</p>
+          </div>
+          <div
+            class="col-6 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#modalDetail"
+          >
+            <img
+              src="assets/images/cuci.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
+            <p class="text-light work text-center">Saya ingin cuci tangan</p>
+          </div>
+          <div
+            class="col-6 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#modalDetail"
+          >
+            <img
+              src="assets/images/tidak_cuci.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
+            <p class="text-light work text-center">Saya tidak ingin cuci tangan</p>
+          </div>
+          <div
+            class="col-6 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#modalDetail"
+          >
+            <img
+              src="assets/images/toilet.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
+            <p class="text-light work text-center">Saya ingin ke toilet</p>
+          </div>
+          <div
+            class="col-6 d-flex flex-column flex-nowrap align-items-center justify-content-center mb-4"
+            data-bs-toggle="modal"
+            data-bs-target="#modalDetail"
+          >
+            <img
+              src="assets/images/tidak_toilet.webp"
+              alt="jayden"
+              width="100vw"
+              class="image-trigger"
+            />
+            <p class="text-light work text-center">Saya tidak ingin ke toilet</p>
           </div>
         </div>
       </div>
 
       <div
         class="modal fade"
-        id="exampleModal"
+        id="modalDetail"
         tabindex="-1"
-        aria-labelledby="exampleModalLabel"
+        aria-labelledby="modalDetailLabel"
         aria-hidden="true"
       >
         <div class="modal-dialog modal-dialog-centered">
