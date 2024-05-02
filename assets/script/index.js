@@ -25,6 +25,9 @@ const imageModal = document.querySelector(".modal-image");
 
 imageTrigger.forEach((trigger) => {
   trigger.addEventListener("click", (e) => {
-    imageModal.src = trigger.src;
+    fileName = trigger.src.split("/").pop().split(".")[0];
+    imageModal.src = `../assets/images/${fileName}.webp`;
+    var audio = new Audio(`../assets/sound/${fileName}.mp3`);
+    audio.play();
   });
 });
