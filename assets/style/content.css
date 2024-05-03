@@ -110,6 +110,10 @@ body {
   height: 100vh;
 }
 
+#navbar .nav-navbar .logo {
+  width: clamp(80px, 80%, 200px);
+}
+
 #navbar .nav-menu a {
   color: #000;
 }

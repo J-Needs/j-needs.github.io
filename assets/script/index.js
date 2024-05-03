@@ -10,7 +10,6 @@ responsiveToggle.addEventListener("change", (e) => {
   }
 });
 
-
 const navLinks = document.querySelectorAll(".nav-link");
 
 navLinks.forEach((link) => {
@@ -31,3 +30,11 @@ imageTrigger.forEach((trigger) => {
     audio.play();
   });
 });
+
+function closeOpenedWindow() {
+  var myWindow = window.open("", "_self");
+  myWindow.document.write("");
+  setTimeout(function () {
+    myWindow.close();
+  }, 1000);
+}
