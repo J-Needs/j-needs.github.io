@@ -172,6 +172,10 @@ body {
   font-size: 1.7rem;
 }
 
+#main .image-trigger {
+  cursor: pointer;
+}
+
 #main .work {
   font-size: 1.5rem;
 }
